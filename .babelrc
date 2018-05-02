@@ -1,16 +1,7 @@
 {
-  "presets": ["es2015", "stage-1", "react"],
-  "env": {
-    "testing": {
-      "plugins": [
-        [
-          "babel-plugin-webpack-loaders",
-          {
-            "config": "./node.webpack.config.js",
-            "verbose": false
-          }
-        ]
-      ]
-    }
-  }
+  "presets": [["env", { "modules": false }], "react"],
+  "plugins": [
+    ["transform-object-rest-spread", { "useBuiltIns": true }],
+    ["transform-class-properties", { "spec": true }]
+  ]
 }

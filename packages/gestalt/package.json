@@ -25,12 +25,12 @@
     "watch": "rollup -c rollup.config.js --watch"
   },
   "devDependencies": {
+    "babel-plugin-external-helpers": "^6.22.0",
     "caniuse-lite": "^1.0.30000810",
     "cssnano": "^3.10.0",
-    "postcss": "^6.0.19",
     "postcss-cssnext": "^3.1.0",
     "postcss-modules": "^1.1.0",
-    "rollup": "^0.56.0",
+    "postcss": "^6.0.19",
     "rollup-plugin-babel": "^3.0.3",
     "rollup-plugin-filesize": "^1.5.0",
     "rollup-plugin-json": "^2.1.0",
@@ -39,6 +39,7 @@
     "rollup-plugin-replace": "^2.0.0",
     "rollup-plugin-visualizer": "^0.3.1",
     "rollup-watch": "^4.3.1",
+    "rollup": "^0.56.0",
     "xml2js": "^0.4.19"
   },
   "browserslist": [

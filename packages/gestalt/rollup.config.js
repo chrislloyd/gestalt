@@ -173,8 +173,7 @@ export default {
       preferConst: true,
     }),
     babel({
-      babelrc: false,
-      presets: [['es2015', { modules: false }], 'stage-1', 'react'],
+      exclude: 'node_modules/**',
       plugins: ['external-helpers'],
     }),
     visualizer(),
